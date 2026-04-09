@@ -1,0 +1,50 @@
+{
+  "id": "web-dev",
+  "name": "Web Development",
+  "description": "Build websites with HTML, CSS, and JavaScript",
+  "icon": "🌐",
+  "color": "#E44D26",
+
+  "levels": [
+    {
+      "id": "html-basics",
+      "name": "HTML Basics",
+      "emoji": "📝",
+      "description": "🏗️ Build your first web pages!",
+      "unlockCondition": null,
+      "missions": [
+        {"id": "html-1-1", "name": "Structure",      "points": 5, "number": 1},
+        {"id": "html-1-2", "name": "Links & Images", "points": 5, "number": 2},
+        {"id": "html-1-3", "name": "Forms",          "points": 5, "number": 3}
+      ]
+    },
+    {
+      "id": "css-path",
+      "name": "Web Zone — CSS",
+      "emoji": "✨",
+      "description": "🎨 Make things beautiful!",
+      "unlockCondition": {
+        "xp": 15,
+        "requiredMissions": ["html-1-1", "html-1-2", "html-1-3"]
+      },
+      "missions": [
+        {"id": "css-2-1", "name": "Selectors", "points": 5, "number": 4},
+        {"id": "css-2-2", "name": "Box Model", "points": 5, "number": 5},
+        {"id": "css-2-3", "name": "Flexbox",   "points": 5, "number": 6}
+      ]
+    },
+    {
+      "id": "capstone",
+      "name": "Capstone",
+      "emoji": "🏆",
+      "description": "🚀 Build a full webpage!",
+      "unlockCondition": {
+        "xp": 45,
+        "requiredMissions": ["css-2-3"]
+      },
+      "missions": [
+        {"id": "capstone-1", "name": "Build a webpage", "points": 5, "number": 7}
+      ]
+    }
+  ]
+}
