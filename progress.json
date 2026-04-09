@@ -1,0 +1,15 @@
+{
+  "student": {
+    "name": "DEMO",
+    "username": "cykau6-code"
+  },
+  "progress": {
+    "xp": 0,
+    "completedMissions": [],
+    "unlockedMissions": [
+      "html-1-1"
+    ],
+    "badges": [],
+    "currentMission": "html-1-1"
+  }
+}
